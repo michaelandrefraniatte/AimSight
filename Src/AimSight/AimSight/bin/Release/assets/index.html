@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <style>
+
+html, body {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    padding: 0;
+    height: 100%;
+	width: 100%;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+        img {
+            position: relative;
+            width: 80px;
+            height: 80px;
+            top: 50%;
+            left: 50%;
+            margin-top: -40px;
+            margin-left: -40px;
+        }
+
+        #gamepad {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="gamepad">
+        <img id="stick-right" src="https://appassets/aimsight.gif" />
+    </div>
+
+    <script>
+
+        var sr = document.getElementById('stick-right');
+
+        function setController(Controller1ThumbRightX, Controller1ThumbRightY) {
+            try {
+                sr.style.transform = "translate(" + parseFloat(Controller1ThumbRightX) / 160 + "%, " + parseFloat(-Controller1ThumbRightY) / 160 + "%)";
+            }
+            catch { }
+        }
+
+    </script>
+</body>
+</html>

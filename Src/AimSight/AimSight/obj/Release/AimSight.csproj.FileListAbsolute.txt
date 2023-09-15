@@ -1,0 +1,12 @@
+C:\Users\micha\Documents\tool\AimSight\AimSight\bin\Release\AimSight.exe.config
+C:\Users\micha\Documents\tool\AimSight\AimSight\bin\Release\AimSight.exe
+C:\Users\micha\Documents\tool\AimSight\AimSight\bin\Release\AimSight.pdb
+C:\Users\micha\Documents\tool\AimSight\AimSight\obj\Release\AimSight.csproj.AssemblyReference.cache
+C:\Users\micha\Documents\tool\AimSight\AimSight\obj\Release\AimSight.csproj.SuggestedBindingRedirects.cache
+C:\Users\micha\Documents\tool\AimSight\AimSight\obj\Release\AimSight.Form1.resources
+C:\Users\micha\Documents\tool\AimSight\AimSight\obj\Release\AimSight.Properties.Resources.resources
+C:\Users\micha\Documents\tool\AimSight\AimSight\obj\Release\AimSight.csproj.GenerateResource.cache
+C:\Users\micha\Documents\tool\AimSight\AimSight\obj\Release\AimSight.csproj.CoreCompileInputs.cache
+C:\Users\micha\Documents\tool\AimSight\AimSight\obj\Release\AimSight.exe
+C:\Users\micha\Documents\tool\AimSight\AimSight\obj\Release\AimSight.pdb
+C:\Users\micha\Documents\tool\AimSight\AimSight\obj\Release\AimSight.csproj.CopyComplete

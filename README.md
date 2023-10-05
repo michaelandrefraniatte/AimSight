@@ -1,3 +1,1 @@
-﻿https://michaelandrefraniatte.github.io/AimSight  
-  
-https://github.com/michaelandrefraniatte  
+﻿https://github.com/michaelandrefraniatte

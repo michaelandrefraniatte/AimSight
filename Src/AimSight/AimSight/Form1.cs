@@ -48,6 +48,7 @@ namespace AimSight
             await webView21.EnsureCoreWebView2Async(environment);
             webView21.CoreWebView2.SetVirtualHostNameToFolderMapping("appassets", "assets", CoreWebView2HostResourceAccessKind.DenyCors);
             webView21.CoreWebView2.Settings.AreDevToolsEnabled = false;
+            webView21.KeyDown += WebView21_KeyDown;
             webView21.Source = new Uri("https://appassets/index.html");
             webView21.Dock = DockStyle.Fill;
             webView21.DefaultBackgroundColor = Color.Transparent;
@@ -71,6 +72,28 @@ namespace AimSight
                 }
             }
             catch { }
+        }
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            OnKeyDown(e.KeyData);
+        }
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            OnKeyDown(keyData);
+            return true;
+        }
+        private void WebView21_KeyDown(object sender, KeyEventArgs e)
+        {
+            OnKeyDown(e.KeyData);
+        }
+        private void OnKeyDown(Keys keyData)
+        {
+            if (keyData == Keys.F1)
+            {
+                const string message = "• Author: Michaël André Franiatte.\n\r\n\r• Contact: michael.franiatte@gmail.com.\n\r\n\r• Publisher: https://github.com/michaelandrefraniatte.\n\r\n\r• Copyrights: All rights reserved, no permissions granted.\n\r\n\r• License: Not open source, not free of charge to use.";
+                const string caption = "About";
+                MessageBox.Show(message, caption, MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
         private static double Scale(double value, double min, double max, double minScale, double maxScale)
         {

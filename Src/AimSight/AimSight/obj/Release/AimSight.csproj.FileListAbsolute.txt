@@ -18,6 +18,15 @@ C:\Users\micha\Documents\github\AimSight\Src\AimSight\AimSight\obj\Release\AimSi
 C:\Users\micha\Documents\github\AimSight\Src\AimSight\AimSight\obj\Release\AimSight.Properties.Resources.resources
 C:\Users\micha\Documents\github\AimSight\Src\AimSight\AimSight\obj\Release\AimSight.csproj.GenerateResource.cache
 C:\Users\micha\Documents\github\AimSight\Src\AimSight\AimSight\obj\Release\AimSight.csproj.CoreCompileInputs.cache
-C:\Users\micha\Documents\github\AimSight\Src\AimSight\AimSight\obj\Release\AimSight.csproj.CopyComplete
 C:\Users\micha\Documents\github\AimSight\Src\AimSight\AimSight\obj\Release\AimSight.exe
 C:\Users\micha\Documents\github\AimSight\Src\AimSight\AimSight\obj\Release\AimSight.pdb
+C:\Users\micha\Documents\github\AimSight\Src\AimSight\AimSight\bin\Release\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\micha\Documents\github\AimSight\Src\AimSight\AimSight\bin\Release\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\micha\Documents\github\AimSight\Src\AimSight\AimSight\bin\Release\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\micha\Documents\github\AimSight\Src\AimSight\AimSight\bin\Release\Microsoft.Web.WebView2.Core.dll
+C:\Users\micha\Documents\github\AimSight\Src\AimSight\AimSight\bin\Release\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\micha\Documents\github\AimSight\Src\AimSight\AimSight\bin\Release\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\micha\Documents\github\AimSight\Src\AimSight\AimSight\bin\Release\Microsoft.Web.WebView2.Core.xml
+C:\Users\micha\Documents\github\AimSight\Src\AimSight\AimSight\bin\Release\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\micha\Documents\github\AimSight\Src\AimSight\AimSight\bin\Release\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\micha\Documents\github\AimSight\Src\AimSight\AimSight\obj\Release\AimSight.csproj.Up2Date
